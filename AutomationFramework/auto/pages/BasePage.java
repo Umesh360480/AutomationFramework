@@ -13,11 +13,16 @@ public class BasePage {
 	public String getPageTitle() {
 		return driver.getTitle();
 	}
+
 	public void clickBackward() {
-		driver.navigate().back();		
+		driver.navigate().back();
 	}
-	public void test(){
+
+	public void test() {
+
 		System.out.println("Hello World");
+		System.out.println("changed");
+
 	}
 
 }
