@@ -20,5 +20,7 @@ public class BasePage {
 	public void clickBackward() {
 		driver.navigate().back();		
 	}
+	public void test(){
+	}
 
 }
