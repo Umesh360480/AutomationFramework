@@ -21,6 +21,7 @@ public class BasePage {
 		driver.navigate().back();		
 	}
 	public void test(){
+	System.out.println("changed");
 	}
 
 }
